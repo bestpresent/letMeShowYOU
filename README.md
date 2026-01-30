@@ -33,3 +33,15 @@ pytest tests/api/ -v --html=reports/api_report.html --self-contained-html
 
 # 5. Запустить UI-тесты (браузер запустится автоматически)
 pytest tests/ui/ -v --html=reports/ui_report.html --self-contained-html
+
+
+API (https://reqres.in)
+Авторизация пользователя
+Создание/удаление тестовых сущностей
+Валидация JSON-схемы ответов
+Негативные сценарии (невалидные ID, ошибки 404)
+UI (https://www.saucedemo.com)
+Успешный логин → переход на каталог товаров
+Неверные креды → отображение ошибки
+Добавление товара в корзину
+Оформление заказа (частичный сценарий)
